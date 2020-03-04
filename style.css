@@ -91,6 +91,29 @@ figure {
   color: rgb(124, 117, 117);
 }
 
+.fab,
+.fas,
+.far {
+  cursor: pointer;
+}
+
+.fab:hover {
+  background-color: rgb(206, 200, 200);
+}
+
+.far:hover {
+  background-color: rgb(206, 200, 200);
+}
+
+.fas:hover {
+  background-color: rgb(206, 200, 200);
+}
+
+.fa {
+  font-size: 15px;
+  font-weight: 300;
+}
+
 .article-title {
   margin: 100px 100px 20px 200px;
   height: 80px;
@@ -176,21 +199,27 @@ aside {
   display: flex;
 }
 
-.subs-alert {
-  margin: auto;
-  width: 100%;
+#subs-alert {
+  text-align: center;
 }
 
 .hr {
   width: 90px;
   padding: 0;
+  margin: 18px auto;
 }
 
-.subs-article {
-  font-size: medium;
-  font-weight: 800;
-  text-align: center;
-  margin: 0 auto;
+#subs-article {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+#times-subscription {
+  font-size: 14px;
+  font-weight: 100;
+  text-decoration: none;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
 .iframe,
