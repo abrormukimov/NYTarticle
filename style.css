@@ -8,3 +8,68 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar {
+  width: 100%;
+  border-bottom: 1px solid rgb(179, 176, 176);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 247);
+  height: 40px;
+  position: fixed;
+}
+
+.nav {
+  margin-left: 40px;
+}
+
+.logo {
+  height: 40px;
+}
+.icons {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.icons > i,
+.icons > a {
+  margin-left: 20px;
+  color: black;
+  font-weight: 600;
+}
+
+.space-and-cosmos {
+  text-decoration: none;
+}
+
+.btn {
+  padding: 5px;
+  color: white;
+  margin-right: 10px;
+}
+
+.btn-subscribe {
+  margin-right: 10px;
+  background-color: blue;
+  padding: 8px;
+  border: none;
+  border-radius: 5%;
+  font-size: small;
+  font-weight: 600;
+}
+
+.btn-login {
+  background-color: blue;
+  padding: 8px;
+  border: none;
+  border-radius: 5%;
+  font-size: small;
+  font-weight: 600;
+}
