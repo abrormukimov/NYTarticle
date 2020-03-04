@@ -87,10 +87,14 @@ body {
 }
 figure{
   padding: 0;
-  margin: 0;
+  margin: 10px 0 0 0;
   color:#333333;
+  width: 740px;
 }
 
+.author {
+  color: rgb(124, 117, 117);
+}
 .article-title{
   margin: 100px 100px 20px 200px;
   height: 80px;
@@ -99,4 +103,19 @@ figure{
   font-weight: 700;
   line-height: 48px;
   color: #121212;
+}
+
+.date-and-social {
+  display: flex;
+  justify-content: space-between;
+}
+
+.article {
+  width: 600px;
+  margin: auto;
+}
+
+.social > i {
+  margin-left: 20px;
+
 }
