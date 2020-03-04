@@ -73,3 +73,30 @@ body {
   font-size: small;
   font-weight: 600;
 }
+
+.main-container{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 945px;
+  margin: auto;
+}
+.main-img{
+  height: 531px;
+  width: 945px;
+}
+figure{
+  padding: 0;
+  margin: 0;
+  color:#333333;
+}
+
+.article-title{
+  margin: 100px 100px 20px 200px;
+  height: 80px;
+  font-size: 40px;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-weight: 700;
+  line-height: 48px;
+  color: #121212;
+}
