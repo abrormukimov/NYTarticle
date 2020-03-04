@@ -24,6 +24,7 @@ body {
   background-color: rgb(255, 255, 247);
   height: 40px;
   position: fixed;
+  align-items: center;
 }
 
 .nav {
@@ -31,7 +32,7 @@ body {
 }
 
 .logo {
-  height: 40px;
+  height: 30px;
 }
 .icons {
   display: inline-block;
@@ -55,23 +56,16 @@ body {
   margin-right: 10px;
 }
 
+.btn-login,
 .btn-subscribe {
+  background-color: #567b95;
+  font-family: nyt-franklin,helvetica,arial,sans-serif;
+  padding: 11px;
+  border: none;
+  border-radius: 5%;
+  font-size: 10px;
+  font-weight: 800;
   margin-right: 10px;
-  background-color: blue;
-  padding: 8px;
-  border: none;
-  border-radius: 5%;
-  font-size: small;
-  font-weight: 600;
-}
-
-.btn-login {
-  background-color: blue;
-  padding: 8px;
-  border: none;
-  border-radius: 5%;
-  font-size: small;
-  font-weight: 600;
 }
 
 .main-container{
@@ -108,11 +102,16 @@ figure{
 .date-and-social {
   display: flex;
   justify-content: space-between;
+  margin-top: 30px;
 }
 
 .article {
   width: 600px;
   margin: auto;
+}
+
+.next-container {
+  margin: 40px auto;
 }
 
 .social > i {
