@@ -54,24 +54,29 @@ body {
   color: white;
   margin-right: 10px;
 }
-
+a{
+  color: #326791;
+}
 .btn-subscribe {
   margin-right: 10px;
-  background-color: blue;
+  background-color: #326791;
+  font-family: nyt-franklin, helvetica;
   padding: 8px;
   border: none;
   border-radius: 5%;
-  font-size: small;
-  font-weight: 600;
+  font-size: 11px;
+  font-weight: 700;
 }
 
 .btn-login {
-  background-color: blue;
+  background-color: #326791;
+  font-family: nyt-franklin, helvetica;
   padding: 8px;
   border: none;
   border-radius: 5%;
-  font-size: small;
-  font-weight: 600;
+  font-size: 11px;
+  font-weight: 700;
+
 }
 
 .main-container{
@@ -104,6 +109,13 @@ figure{
   line-height: 48px;
   color: #121212;
 }
+.paragraph p{
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color:#333333;
+}
 
 .date-and-social {
   display: flex;
@@ -117,5 +129,41 @@ figure{
 
 .social > i {
   margin-left: 20px;
+
+}
+.inflation{
+  margin: auto;
+  width: 950px;
+}
+aside{
+  display: flex;
+  flex-direction: column;
+  height: 328px;
+width: 210px;
+justify-content: flex-start;
+margin-top: 900px;
+
+
+}
+.aside-container{
+display: flex;
+border-top: 1px solid rgb(185, 182, 182);
+
+
+}
+ .aside-container >img {
+  height: 75px;
+width: 75px;
+margin: 10px 8px;
+
+}
+.aside-title{
+  font-size: 14px;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+.layout{
+  display: flex;
+
 
 }
