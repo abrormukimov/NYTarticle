@@ -398,3 +398,12 @@ ul > li {
   width: 100px;
   margin: 10px 0;
 }
+.svg-size{
+height: 13px;
+width:13px;
+margin-right: 7px;
+}
+
+li > a > .svg-size{
+font-weight: bold;
+}
