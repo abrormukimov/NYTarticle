@@ -404,6 +404,24 @@ width:13px;
 margin-right: 7px;
 }
 
-li > a > .svg-size{
+li > a.svg-size{
 font-weight: bold;
+}
+.footer-items{
+  display: flex;
+  justify-content: space-between;  
+  width: 1000px;
+  margin: auto;
+
+}
+.footer-items li a{
+  font-size: 11px;
+  color:#666666;
+}
+.image-container{
+display: flex;
+justify-content: space-between;
+}
+.go-home{
+  color: blue;
 }
