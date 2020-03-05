@@ -351,7 +351,7 @@ figure {
 .footer-container {
  /* display:flex;
  flex-direction: column; */
- /* padding-left: 50px; */
+ padding-left: 50px;
 position: absolute;
 /* bottom: 0; */
 left: 0;
@@ -370,18 +370,31 @@ padding: 1em;
 
 }
 .border-line{
-  margin-top: 30px;
+  margin: 30px 0 0 50px;
   border-bottom:5px double #0a0a0a12;
 }
 ul, a{
   text-decoration: none;
   list-style-type: none;
-  
 }
-.news > ul > li >a{
+.news > ul > li > a {
   color: #000000;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-size: 14px;
   line-height: 18px;
   font-weight: 500;
+}
+
+ul > li {
+  margin: 7px 0;
+}
+
+#left-line {
+  border-left: 0.5px solid gray;
+  width: 250px;
+}
+
+.hr {
+  width: 100px;
+  margin: 10px 0;
 }
