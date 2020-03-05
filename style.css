@@ -53,6 +53,7 @@ body {
   padding: 5px;
   color: white;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .btn-login,
@@ -115,7 +116,7 @@ figure {
 }
 
 .article-title {
-  margin: 100px 100px 20px 200px;
+  margin: 100px 100px 50px 200px;
   height: 80px;
   font-size: 40px;
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
@@ -154,33 +155,28 @@ figure {
 .inflation {
   margin: auto;
   width: 950px;
-
-  /* border-bottom: 1px solid black; */
 }
 
 .sec-author-hr {
-  width: 100px;
+  width: 60px;
   margin: 0;
 }
 
 .sec-author {
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
-  color: rgb(71, 68, 68);
-  margin-top: 30px;
+  color: rgb(46, 44, 44);
+  margin-top: 18px;
 }
 
 aside {
-  display: flex;
-  flex-direction: column;
+  float: right;
   height: 328px;
   width: 210px;
-  justify-content: flex-start;
-  margin-top: 900px;
+  margin: 120px 90px 0 0;
 }
 
 .aside-container {
   display: flex;
-  border-top: 1px solid rgb(185, 182, 182);
 }
 
 .aside-container > img {
@@ -190,15 +186,19 @@ aside {
 }
 
 .aside-title {
-  font-size: 14px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 12px;
   font-weight: 700;
   padding-bottom: 5px;
+  border-bottom: 1px solid rgb(194, 194, 194);
 }
 
-.layout {
-  display: flex;
+.description > a {
+  text-decoration: none;
+  color: rgb(82, 78, 78);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 13px;
 }
-
 #subs-alert {
   text-align: center;
 }
@@ -234,4 +234,43 @@ aside {
 
 .figure2 {
   width: 565px;
+}
+
+#figure-3 {
+  font-size: 12px;
+}
+
+.order-subs {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.order-subs:hover {
+  text-decoration: none;
+}
+
+.comment-share {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-comment {
+  background-color: #567b95;
+  border: none;
+  border-radius: 3px;
+  padding: 6px 70px;
+  margin-top: 20px;
+  color: white;
+  font-weight: 600;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+.social-2 {
+  margin: 20px;
+}
+
+.social-2 > i {
+  margin-left: 25px;
+  margin-top: 6px;
+
 }
