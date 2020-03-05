@@ -168,7 +168,7 @@ figure {
   margin-top: 18px;
 }
 
-aside {
+.aside {
   float: right;
   height: 328px;
   width: 210px;
@@ -272,5 +272,77 @@ aside {
 .social-2 > i {
   margin-left: 25px;
   margin-top: 6px;
+}
 
+.section-last {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.more-links {
+  width: 850px;
+}
+
+.line-after {
+  border: 0.5px solid black;
+  margin: 40px 0;
+}
+
+.more-info {
+  margin: 10px 0;
+  font-weight: 800;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 15px;
+}
+
+.more-webpages {
+  display: flex;
+  flex-wrap: wrap;
+  width: 850px;
+  justify-content: space-between;
+}
+
+.link-1 {
+  width: 272px;
+  margin: 10px 0;
+}
+
+.figure-4 {
+  width: 272px;
+  margin: 3px 0;
+  padding: 0;
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.link-title {
+  margin: 0;
+  padding: 0;
+}
+
+.figure-5 {
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+}
+
+.link-img {
+  width: 272px;
+  height: 181px;
+}
+
+.aside-2 {
+  width: 300px;
+  margin-left: 40px;
+}
+
+.more-article {
+  border-top: 0.5px solid rgb(184, 181, 181);
+  font-size: 19px;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+  font-weight: 549;
+  padding: 15px 0;
+  margin: 16px 0;
 }
