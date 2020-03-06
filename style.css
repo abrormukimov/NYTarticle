@@ -14,70 +14,83 @@ body {
   padding: 0;
 }
 
-.navbar {
-  width: 100%;
-  border-bottom: 1px solid rgb(179, 176, 176);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: rgb(255, 255, 247);
-  height: 40px;
-  position: fixed;
-}
+.image{
+  height: 14px;
+  width: 14px;
+margin-right: 20px;
 
-.nav {
-  margin-left: 40px;
 }
-
-.logo {
-  height: 30px;
+.title img{
+  height: 26px;
+  width: 195px;
+  margin-top: 10px ;
 }
-
-.icons {
-  display: inline-block;
-  margin-left: 10px;
-}
-
-ul,
-a {
-  text-decoration: none;
-  list-style-type: none;
-}
-
-.icons > i,
-.icons > a {
-  margin-left: 20px;
-  color: black;
-  font-weight: 600;
-}
-
-.space-and-cosmos {
-  text-decoration: none;
-  font-family: sans-serif;
-  font-size: 14px;
-  line-height: 19px;
-  font-size: 700;
-}
-
-.btn {
-  padding: 5px;
-  color: white;
-  margin-right: 10px;
-  cursor: pointer;
-}
-
-.btn-login,
-.btn-subscribe {
-  background-color: #567b95;
+.space a{
   font-family: nyt-franklin, helvetica, arial, sans-serif;
-  padding: 11px;
-  border: none;
-  border-radius: 5%;
-  font-size: 10px;
-  font-weight: 800;
-  margin-right: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #000000;
+  line-height: 19px;
+  text-decoration: none;
+
+}
+.space a:hover{
+  text-decoration: underline;
+}
+nav{
+  display: flex;
+  height: 42px;
+  border-bottom: 1px solid rgb(194, 190, 190);
+  border-top: 1px solid rgb(196, 191, 191);
+  justify-content: space-between;
+
+
+}
+nav > ul{
+  list-style-type: none;
+  list-style: none;
+display: flex;
+justify-self: flex-start;
+margin: 10px 0 3px 0;
+padding-left: 8px;
+list-style-type: none;
+  
+}
+.title{
+  align-items: center;
 }
 
+.btn{
+  float: right;
+  justify-content: right;
+  padding-top: 5px ;
+}
+.button-subscribe{
+  background-color: #326791;
+  color:#ffff;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 11px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  border: none;
+  height: 32px;
+  width: 112px;
+}
+.button-login {
+  background-color: #326791;
+  color:#ffff;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 11px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  border: none;
+  height: 32px;
+  width: 60px;
+}
 .main-container {
   display: flex;
   flex-direction: column;
@@ -420,6 +433,7 @@ figure {
 
 ul > li {
   margin: 7px 0;
+  list-style-type: none;
 }
 
 ul > li > a:hover {
@@ -451,6 +465,8 @@ ul > li > a:hover {
   font-size: 11px;
   line-height: 21px;
   font-weight: 500;
+  list-style-type: none;
+  text-decoration:none;
 }
 
 .news ul li {
@@ -459,11 +475,28 @@ ul > li > a:hover {
   font-size: 13px;
   line-height: 15px;
   color: #333;
+  list-style-type: none;
+  text-decoration: none;
 }
 
 li > a.svg-size {
   font-weight: bold;
 }
+  
+#inflation { 
+  background: center transparent url(./images/inflation-945.png) no-repeat;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(100px);
+  grid-gap: 1em;
+  padding: 1em;
+  height: 570px;
+  width: 945px;
+  background-size:cover;
+  align-items: end;
+
+}
+  
 
 .footer-items {
   display: flex;
@@ -488,4 +521,13 @@ li > a.svg-size {
 
 .sub-news {
   margin-top: 15px;
+}
+.inflation-container{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+}
+.sec_author{
+  padding-left: 200px;
 }
