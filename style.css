@@ -448,7 +448,7 @@ ul > li > a:hover {
 
 #left-line li a {
   font-weight: bold;
-  
+
 }
 
 .hr {
@@ -502,7 +502,10 @@ li > a.svg-size {
   align-items: end;
 
 }
-  
+
+.inflation > p{
+  font-size: smaller;
+}
 
 .footer-items {
   display: flex;
