@@ -53,6 +53,10 @@ a {
 
 .space-and-cosmos {
   text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 19px;
+  font-size: 700;
 }
 
 .btn {
@@ -218,15 +222,19 @@ figure {
 
 #subs-article {
   font-size: 15px;
-  font-weight: 600;
+  line-height: 19px;
+  font-weight: 700;
+  color: #333333;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
 }
 
 #times-subscription {
-  font-size: 14px;
-  font-weight: 100;
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: 700;
   text-decoration: none;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
+  color: #326891;
 }
 
 .iframe,
