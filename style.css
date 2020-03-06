@@ -351,7 +351,7 @@ figure {
 .footer-container {
  /* display:flex;
  flex-direction: column; */
- padding-left: 50px;
+ padding-left: 30px;
 position: absolute;
 /* bottom: 0; */
 left: 0;
@@ -436,6 +436,10 @@ font-weight: bold;
 display: flex;
 justify-content: space-between;
 }
+.footer-img{
+  width: 280px;
+  height: 50px;
+}
 .go-home > a{
   color:#567b95;
   font-size: 11px;
@@ -446,10 +450,8 @@ justify-content: space-between;
 }
 .sub-news li a{
   font-size: 11px;
-  /* font-weight: 500; */
   line-height: 21px;
   color: #000000;
   font-family:nyt-franklin, helvetica, arial, sans-serif;
-  padding:0;
-  margin: 0;
+
 }
