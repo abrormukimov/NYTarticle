@@ -19,8 +19,7 @@ New York Times Article Clone
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**This is how you may setup this project locally.**
 
 
 To get a local copy up and running follow these simple example steps.
@@ -79,5 +78,3 @@ Contributions, issues and feature requests are welcome! Start by:
 ## 📝 License
 
 This project is [MIT](https://opensource.org/licenses/MIT) licensed.
-# NYTarticle
-link https://rawcdn.githack.com/abrormukimov/NYTarticle/bbfae4b59af0b8ebfd9b85cd5324db91ffa99bbd/index.html
