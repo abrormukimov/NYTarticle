@@ -268,11 +268,13 @@ figure {
 
 .social-2 {
   margin: 20px;
+
 }
 
 .social-2 > i {
   margin-left: 25px;
   margin-top: 6px;
+
 }
 
 .section-last {
@@ -371,6 +373,7 @@ figure {
 .border-line {
   margin: 30px 0 0 50px;
   border-bottom: 5px double #0a0a0a12;
+  width: 1160px;
 }
 
 ul,
@@ -439,6 +442,13 @@ li > a.svg-size {
   display: flex;
   justify-content: space-between;
 }
+.footer-img{
+  width: 250px;
+  height: 50px;
+}
+.go-home {
+  margin-top: 20px;
+}
 
 .go-home > a {
   color: #567b95;
@@ -446,13 +456,32 @@ li > a.svg-size {
   font-weight: 400;
   line-height: 11px;
   font-family:nyt-franklin, helvetica, arial, sans-serif;
-  margin:10px 100px;
+  margin:50px 100px;
 }
+
+.sub-news {
+  margin-top: 15px;
+}
+
+.sub-news li {
+  margin-top: 4px;
+  font-size: 11px;
+  line-height: 21px;
+  font-weight: 500;
+ 
+ 
+}
+ ul > li > a:hover {
+   text-decoration: underline;
+   
+
+}
+
 .sub-news li a{
   font-size: 11px;
   line-height: 21px;
   color: #000000;
   font-family:nyt-franklin, helvetica, arial, sans-serif;
-  padding:0;
-  margin: 0;
+  margin:10px 0 10px 0;
+  
 }
