@@ -38,6 +38,12 @@ body {
   margin-left: 10px;
 }
 
+ul,
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
 .icons > i,
 .icons > a {
   margin-left: 20px;
@@ -268,13 +274,11 @@ figure {
 
 .social-2 {
   margin: 20px;
-
 }
 
 .social-2 > i {
   margin-left: 25px;
   margin-top: 6px;
-
 }
 
 .section-last {
@@ -376,10 +380,26 @@ figure {
   width: 1160px;
 }
 
-ul,
-a {
-  text-decoration: none;
-  list-style-type: none;
+.go-home > a {
+  color: #567b95;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 11px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  margin: 50px 100px;
+}
+
+.footer-items li a {
+  font-size: 11px;
+  color: #666;
+}
+
+.sub-news li a {
+  font-size: 11px;
+  line-height: 21px;
+  color: #000;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  margin: 10px 0 10px 0;
 }
 
 .news > ul > li > a {
@@ -392,6 +412,10 @@ a {
 
 ul > li {
   margin: 7px 0;
+}
+
+ul > li > a:hover {
+  text-decoration: underline;
 }
 
 #left-line {
@@ -414,6 +438,13 @@ ul > li {
   margin-right: 7px;
 }
 
+.sub-news li {
+  margin-top: 4px;
+  font-size: 11px;
+  line-height: 21px;
+  font-weight: 500;
+}
+
 .news ul li {
   font-weight: 700;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -433,55 +464,20 @@ li > a.svg-size {
   margin: auto;
 }
 
-.footer-items li a {
-  font-size: 11px;
-  color: #666;
-}
-
 .image-container {
   display: flex;
   justify-content: space-between;
 }
-.footer-img{
+
+.footer-img {
   width: 250px;
   height: 50px;
 }
+
 .go-home {
   margin-top: 20px;
 }
 
-.go-home > a {
-  color: #567b95;
-  font-size: 11px;
-  font-weight: 400;
-  line-height: 11px;
-  font-family:nyt-franklin, helvetica, arial, sans-serif;
-  margin:50px 100px;
-}
-
 .sub-news {
   margin-top: 15px;
-}
-
-.sub-news li {
-  margin-top: 4px;
-  font-size: 11px;
-  line-height: 21px;
-  font-weight: 500;
- 
- 
-}
- ul > li > a:hover {
-   text-decoration: underline;
-   
-
-}
-
-.sub-news li a{
-  font-size: 11px;
-  line-height: 21px;
-  color: #000000;
-  font-family:nyt-franklin, helvetica, arial, sans-serif;
-  margin:10px 0 10px 0;
-  
 }
