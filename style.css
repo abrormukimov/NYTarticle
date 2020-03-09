@@ -21,10 +21,27 @@ body {
   margin-left: 15px;
 }
 
-.title img {
+.title .img1 {
   height: 26px;
   width: 195px;
   margin-top: 10px;
+}
+
+.title .img2 {
+  display: none;
+}
+
+@media all and (max-width: 700px) {
+  .title .img2 {
+    display: flex;
+    height: 26px;
+    width: 26px;
+    /* margin-top: 10px; */
+  }
+
+  .title .img1 {
+    display: none;
+  }
 }
 
 .space a {
@@ -237,20 +254,6 @@ figure {
   width: 980px;
 }
 
-#sec-author-hr {
-  height: 20px;
-  width: 980px;
-
-  /* margin: 0; */
-  border-bottom: gray;
-  border-width: 60px;
-
-  /* border: 1px solid black; */
-
-  /* display: flex;
-  justify-content: flex-start;   */
-}
-
 .sec-author {
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   color: rgb(46, 44, 44);
@@ -439,6 +442,12 @@ figure {
   padding-left: 50px;
 }
 
+.footer-title {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
 .footer-title > img {
   height: 54px;
   width: 300px;
@@ -455,7 +464,7 @@ figure {
 .border-line {
   margin: 30px 0 0 50px;
   border-bottom: 5px double #0a0a0a12;
-  width: 1040px;
+  width: 1150px;
 }
 
 ul > li {
