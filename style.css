@@ -570,10 +570,23 @@ li > a.svg-size {
   justify-content: space-evenly;
   font-size: 15px;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
-  /* position: absolute; */
 }
 
 .expand{
-  font-weight: bold;
-  font-size: 15px;
+  font-weight: 700;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+ 
+}
+
+.expand > p{
+  margin-right: 40px;
+
+}
+
+.expand > i{
+  margin-left: 40px;
+
 }
