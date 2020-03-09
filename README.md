@@ -15,7 +15,7 @@ New York Times Article Clone
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/abrormukimov/NYTarticle/c9037e202fa105c4cfe54324b229d0aaad98376f/index.html)
+[Live Demo Link](https://rawcdn.githack.com/abrormukimov/NYTarticle/f52aa6d727ee79c62ca2d47525d7819542f371af/index.html)
 
 ## Getting Started
 
