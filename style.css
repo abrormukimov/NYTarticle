@@ -52,6 +52,42 @@ body {
   margin: 50px 100px;
 }
 
+.footer-items li a {
+  font-size: 11px;
+  color: #666;
+  text-decoration: none;
+}
+
+.sub-news li a {
+  font-size: 11px;
+  line-height: 21px;
+  color: #000;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  margin: 10px 0 10px 0;
+}
+
+.news > ul > li > a {
+  color: #000;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+}
+
+ul > li > a:hover {
+  text-decoration: underline;
+}
+
+.news ul li a {
+  font-weight: 700;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+  color: #333;
+  list-style-type: none;
+  text-decoration: none;
+}
+
 .space a:hover {
   text-decoration: underline;
 }
@@ -197,15 +233,29 @@ figure {
   margin-left: 20px;
 }
 
-.sec-author-hr {
-  width: 60px;
-  margin: 0;
+#section-author {
+  width: 980px;
+}
+
+#sec-author-hr {
+  height: 20px;
+  width: 980px;
+
+  /* margin: 0; */
+  border-bottom: gray;
+  border-width: 60px;
+
+  /* border: 1px solid black; */
+
+  /* display: flex;
+  justify-content: flex-start;   */
 }
 
 .sec-author {
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   color: rgb(46, 44, 44);
-  margin-top: 18px;
+  margin-top: 20px;
+  width: 980px;
 }
 
 .aside {
@@ -408,35 +458,9 @@ figure {
   width: 1040px;
 }
 
-.footer-items li a {
-  font-size: 11px;
-  color: #666;
-  text-decoration: none;
-}
-
-.sub-news li a {
-  font-size: 11px;
-  line-height: 21px;
-  color: #000;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  margin: 10px 0 10px 0;
-}
-
-.news > ul > li > a {
-  color: #000;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  font-size: 14px;
-  line-height: 16px;
-  font-weight: 500;
-}
-
 ul > li {
   margin: 7px 0;
   list-style-type: none;
-}
-
-ul > li > a:hover {
-  text-decoration: underline;
 }
 
 #news-line {
@@ -446,6 +470,10 @@ ul > li > a:hover {
 
 #left-line {
   width: 250px;
+}
+
+.news ul li a:hover {
+  text-decoration: underline;
 }
 
 #left-line li a {
@@ -472,23 +500,10 @@ ul > li > a:hover {
   text-decoration: none;
 }
 
-.news ul li a {
-  font-weight: 700;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
+.news ul li {
   font-size: 13px;
   line-height: 15px;
   color: #333;
-  list-style-type: none;
-  text-decoration: none;
-}
-
-.news ul li a:hover {
-  text-decoration: underline;
-}
-.news ul li{
-  font-size: 13px;
-  line-height: 15px;
-  color: #333333;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
 }
@@ -545,6 +560,6 @@ li > a.svg-size {
   align-items: center;
 }
 
-.sec_author {
-  padding-left: 200px;
+#sec_author {
+  width: 980px;
 }
