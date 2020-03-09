@@ -572,3 +572,30 @@ li > a.svg-size {
 #sec_author {
   width: 980px;
 }
+
+.fixed-footer{
+  border-top: 1px solid #000000;
+  display:flex;
+  justify-content: space-evenly;
+  font-size: 15px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+.expand{
+  font-weight: 700;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+ 
+}
+
+.expand > p{
+  margin-right: 40px;
+
+}
+
+.expand > i{
+  margin-left: 40px;
+
+}
