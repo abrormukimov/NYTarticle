@@ -367,15 +367,16 @@ figure {
 }
 
 .section-last {
-  width: 1230px;
+  max-width: 1290px;
   margin: 0 auto;
   display: flex;
+  justify-content: space-evenly;
 
   /* border: 1px solid black; */
 }
 
 .more-links {
-  width: 830px;
+  max-width: 830px;
 
   /* border: 1px solid green; */
 }
@@ -429,7 +430,7 @@ figure {
 }
 
 .aside-2 {
-  width: 350px;
+  width: 365px;
 
   /* border: 1px solid blue; */
   margin-left: 30px;
